@@ -8,7 +8,7 @@ To run this on your machine:
 - ensure you have python installed
 - download 'gaming_timer.py' file from this repository
 - run 'gaming_timer.py' directly, from CLI or with any other prefered python interpreter
-*optionaly for Windows users:*
+<br>*optionaly for Windows users:*
 - 'download 'uruchom_zegar.bat' script from this repository
 - execute the .bat script
 
@@ -23,15 +23,15 @@ I realise this whole thing is still not perfect, and has a lot of problems.
 ## Internals
 
 Script (to this date) consists of five functions:
->Window()
+**Window()**
 whitch gives the timer window its size using tkinter module, and puts it on the top-right corner of the secondary screen,
->Clock_mechanism() 
+**Clock_mechanism()**
 that, with time module, updates the displayed time after every half a second,
->find_process()
+**find_process()**
 whitch uses psutil module to create a list of working processes that have a game title in their name,
->stoper()
+**stoper()**
 an addition to the clock, responsible for mesauring time spent on the game,
->fill_window()
+**fill_window()**
 a series of tkinter lines that packs all of the above into readable lines inside the window.
 
 ## Issues
