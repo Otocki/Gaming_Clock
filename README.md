@@ -8,9 +8,9 @@ To run this on your machine:
 - ensure you have python installed
 - download 'gaming_timer.py' file from this repository
 - run 'gaming_timer.py' directly, from CLI or with any other prefered python interpreter
-<p><br>*optionaly for Windows users:*</p>
+<p><br>*optionaly for Windows users:*
 - 'download 'uruchom_zegar.bat' script from this repository
-- execute the .bat script
+- execute the .bat script</p>
 
 
 ## Usage
